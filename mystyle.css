@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    width: 100vw;
+    height: 100vh;
+}
+.first{
+    width: 100vw;
+    height: 10vh;
+}
+.midsection{
+    width: 100vw;
+    height: 75vh;
+    overflow: auto;
+}
+.last{
+    width: 100vw;
+    height: 15vh;
+    background-color: navy;
+    display: grid;
+    place-content: center;
+}
+h4{
+    background-color: navy;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+input{
+    width: 75%;
+}
+button{
+    width: 21%;
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 5px;
+    border-radius: 5px;
+}
+.left,.mid,.right{
+    width: 51%;
+    margin: 10px 0px;
+    padding: 10px;
+    font-size: 10px;
+}
+.left{
+    float: left;
+    clear: right;
+    box-shadow: 5px 5px 10px black;
+}
+.right{
+    clear: left;
+    float:right;
+    box-shadow: 5px 5px 10px black;
+}
+.mid{
+    margin-left: 25%;
+    clear: both;
+    width: 50%;
+    border-bottom: 2px solid gray;
+    border-top: 2px solid gray;
+    padding: 5px;
+}
